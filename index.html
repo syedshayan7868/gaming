@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NEXORA | Gaming Hub</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= LOADER ================= -->
+
+<div class="loader">
+    <div class="loader-ring"></div>
+    <h2>NEXORA</h2>
+    <p>LOADING GAME WORLD...</p>
+</div>
+
+
+<!-- ================= NAVBAR ================= -->
+
+<header>
+    <nav class="navbar">
+
+        <a href="#home" class="logo">
+            <span>N</span>EXORA
+        </a>
+
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#games">Games</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#players">Players</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="nav-right">
+            <button class="search-btn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+
+            <button class="login-btn">
+                Login
+            </button>
+
+            <button class="menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+
+    </nav>
+</header>
+
+
+<!-- ================= HERO ================= -->
+
+<section class="hero" id="home">
+
+    <div class="hero-bg"></div>
+
+    <div class="hero-content reveal">
+
+        <div class="small-title">
+            <span></span> NEXT GENERATION GAMING
+        </div>
+
+        <h1>
+            ENTER THE
+            <strong>GAMEVERSE</strong>
+        </h1>
+
+        <p>
+            Discover epic worlds, challenge your limits,
+            connect with gamers and experience the future
+            of digital gaming.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#games" class="btn primary">
+                <i class="fa-solid fa-gamepad"></i>
+                Explore Games
+            </a>
+
+            <a href="#features" class="btn secondary">
+                <i class="fa-solid fa-play"></i>
+                Watch Trailer
+            </a>
+        </div>
+
+        <div class="hero-stats">
+
+            <div>
+                <h3 class="counter" data-target="250">0</h3>
+                <p>Games</p>
+            </div>
+
+            <div>
+                <h3 class="counter" data-target="850">0</h3>
+                <p>Players K+</p>
+            </div>
+
+            <div>
+                <h3 class="counter" data-target="99">0</h3>
+                <p>Events</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="hero-card">
+
+        <div class="floating-icon icon-one">
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+
+        <div class="floating-icon icon-two">
+            <i class="fa-solid fa-star"></i>
+        </div>
+
+        <div class="floating-icon icon-three">
+            <i class="fa-solid fa-fire"></i>
+        </div>
+
+        <div class="hero-character">
+            <i class="fa-solid fa-user-astronaut"></i>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= GAMES ================= -->
+
+<section class="games section" id="games">
+
+    <div class="section-title reveal">
+
+        <div class="small-title">
+            <span></span> OUR COLLECTION
+        </div>
+
+        <h2>FEATURED <strong>GAMES</strong></h2>
+
+        <p>
+            Explore our collection of exciting gaming experiences.
+        </p>
+
+    </div>
+
+
+    <!-- FILTER -->
+
+    <div class="filters reveal">
+
+        <button class="filter active" data-filter="all">
+            All
+        </button>
+
+        <button class="filter" data-filter="action">
+            Action
+        </button>
+
+        <button class="filter" data-filter="racing">
+            Racing
+        </button>
+
+        <button class="filter" data-filter="rpg">
+            RPG
+        </button>
+
+        <button class="filter" data-filter="strategy">
+            Strategy
+        </button>
+
+    </div>
+
+
+    <div class="game-grid">
+
+        <!-- GAME 1 -->
+
+        <div class="game-card reveal" data-category="action">
+
+            <div class="game-image image-one">
+                <span class="game-tag">ACTION</span>
+
+                <button class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                </button>
+            </div>
+
+            <div class="game-info">
+
+                <h3>Cyber Horizon</h3>
+
+                <p>
+                    Futuristic adventure experience.
+                </p>
+
+                <div class="game-bottom">
+                    <span>
+                        <i class="fa-solid fa-star"></i>
+                        4.9
+                    </span>
+
+                    <button class="play-btn">
+                        PLAY
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- GAME 2 -->
+
+        <div class="game-card reveal" data-category="racing">
+
+            <div class="game-image image-two">
+                <span class="game-tag">RACING</span>
+
+                <button class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                </button>
+            </div>
+
+            <div class="game-info">
+
+                <h3>Neon Velocity</h3>
+
+                <p>
+                    High-speed futuristic racing.
+                </p>
+
+                <div class="game-bottom">
+                    <span>
+                        <i class="fa-solid fa-star"></i>
+                        4.8
+                    </span>
+
+                    <button class="play-btn">
+                        PLAY
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- GAME 3 -->
+
+        <div class="game-card reveal" data-category="rpg">
+
+            <div class="game-image image-three">
+                <span class="game-tag">RPG</span>
+
+                <button class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                </button>
+            </div>
+
+            <div class="game-info">
+
+                <h3>Shadow Realm</h3>
+
+                <p>
+                    Explore a mysterious fantasy world.
+                </p>
+
+                <div class="game-bottom">
+                    <span>
+                        <i class="fa-solid fa-star"></i>
+                        4.7
+                    </span>
+
+                    <button class="play-btn">
+                        PLAY
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- GAME 4 -->
+
+        <div class="game-card reveal" data-category="strategy">
+
+            <div class="game-image image-four">
+                <span class="game-tag">STRATEGY</span>
+
+                <button class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                </button>
+            </div>
+
+            <div class="game-info">
+
+                <h3>Galaxy Command</h3>
+
+                <p>
+                    Build your strategy and dominate.
+                </p>
+
+                <div class="game-bottom">
+                    <span>
+                        <i class="fa-solid fa-star"></i>
+                        4.9
+                    </span>
+
+                    <button class="play-btn">
+                        PLAY
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FEATURES ================= -->
+
+<section class="features section" id="features">
+
+    <div class="section-title reveal">
+
+        <div class="small-title">
+            <span></span> WHY NEXORA
+        </div>
+
+        <h2>BUILT FOR <strong>GAMERS</strong></h2>
+
+        <p>
+            Everything you need for a complete gaming experience.
+        </p>
+
+    </div>
+
+
+    <div class="feature-grid">
+
+        <div class="feature-card reveal">
+            <div class="feature-icon">
+                <i class="fa-solid fa-bolt"></i>
+            </div>
+
+            <h3>Fast Performance</h3>
+
+            <p>
+                Smooth experience with a modern
+                and optimized interface.
+            </p>
+        </div>
+
+
+        <div class="feature-card reveal">
+            <div class="feature-icon">
+                <i class="fa-solid fa-users"></i>
+            </div>
+
+            <h3>Gaming Community</h3>
+
+            <p>
+                Connect with gamers and discover
+                new gaming communities.
+            </p>
+        </div>
+
+
+        <div class="feature-card reveal">
+            <div class="feature-icon">
+                <i class="fa-solid fa-trophy"></i>
+            </div>
+
+            <h3>Leaderboards</h3>
+
+            <p>
+                Track your progress and compete
+                with players worldwide.
+            </p>
+        </div>
+
+
+        <div class="feature-card reveal">
+            <div class="feature-icon">
+                <i class="fa-solid fa-calendar-days"></i>
+            </div>
+
+            <h3>Gaming Events</h3>
+
+            <p>
+                Stay updated with tournaments,
+                events and gaming news.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PLAYERS ================= -->
+
+<section class="players section" id="players">
+
+    <div class="section-title reveal">
+
+        <div class="small-title">
+            <span></span> TOP PLAYERS
+        </div>
+
+        <h2>GLOBAL <strong>LEADERBOARD</strong></h2>
+
+    </div>
+
+
+    <div class="leaderboard reveal">
+
+        <div class="leader-head">
+            <span>RANK</span>
+            <span>PLAYER</span>
+            <span>LEVEL</span>
+            <span>POINTS</span>
+        </div>
+
+
+        <div class="player">
+            <div class="rank first">01</div>
+
+            <div class="player-name">
+                <div class="avatar">AX</div>
+                <span>SYED SHAYAN</span>
+            </div>
+
+            <span>LVL 99</span>
+
+            <strong>98,450</strong>
+        </div>
+
+
+        <div class="player">
+            <div class="rank second">02</div>
+
+            <div class="player-name">
+                <div class="avatar">NX</div>
+                <span>SYED ZAID</span>
+            </div>
+
+            <span>LVL 96</span>
+
+            <strong>94,210</strong>
+        </div>
+
+
+        <div class="player">
+            <div class="rank third">03</div>
+
+            <div class="player-name">
+                <div class="avatar">VR</div>
+                <span>JAMI RAZA</span>
+            </div>
+
+            <span>LVL 94</span>
+
+            <strong>91,880</strong>
+        </div>
+
+
+        <div class="player">
+            <div class="rank">04</div>
+
+            <div class="player-name">
+                <div class="avatar">CR</div>
+                <span>EHTESHAM</span>
+            </div>
+
+            <span>LVL 91</span>
+
+            <strong>87,430</strong>
+        </div>
+
+
+        <div class="player">
+            <div class="rank">05</div>
+
+            <div class="player-name">
+                <div class="avatar">PX</div>
+                <span>AHSAN</span>
+            </div>
+
+            <span>LVL 88</span>
+
+            <strong>84,760</strong>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= NEWS ================= -->
+
+<section class="news section" id="news">
+
+    <div class="section-title reveal">
+
+        <div class="small-title">
+            <span></span> LATEST UPDATES
+        </div>
+
+        <h2>GAMING <strong>NEWS</strong></h2>
+
+    </div>
+
+
+    <div class="news-grid">
+
+        <article class="news-card reveal">
+
+            <div class="news-image news-one"></div>
+
+            <div class="news-content">
+
+                <span>UPDATE</span>
+
+                <h3>
+                    The Future of Gaming Is Here
+                </h3>
+
+                <p>
+                    Discover what's coming next
+                    in the world of digital gaming.
+                </p>
+
+                <a href="#">
+                    Read More →
+                </a>
+
+            </div>
+
+        </article>
+
+
+        <article class="news-card reveal">
+
+            <div class="news-image news-two"></div>
+
+            <div class="news-content">
+
+                <span>COMMUNITY</span>
+
+                <h3>
+                    Join The Nexora Community
+                </h3>
+
+                <p>
+                    Meet gamers, share experiences
+                    and discover new games.
+                </p>
+
+                <a href="#">
+                    Read More →
+                </a>
+
+            </div>
+
+        </article>
+
+
+        <article class="news-card reveal">
+
+            <div class="news-image news-three"></div>
+
+            <div class="news-content">
+
+                <span>EVENT</span>
+
+                <h3>
+                    New Gaming Event Announced
+                </h3>
+
+                <p>
+                    Get ready for an exciting
+                    new community gaming event.
+                </p>
+
+                <a href="#">
+                    Read More →
+                </a>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section class="contact section" id="contact">
+
+    <div class="contact-box reveal">
+
+        <div class="contact-text">
+
+            <div class="small-title">
+                <span></span> GET IN TOUCH
+            </div>
+
+            <h2>
+                READY TO ENTER
+                <strong>THE GAME?</strong>
+            </h2>
+
+            <p>
+                Have questions, suggestions or want
+                to join our community? Send us a message.
+            </p>
+
+            <div class="contact-info">
+
+                <div>
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>hello@nexora.com</span>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Gaming City</span>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-headset"></i>
+                    <span>24/7 Support</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <form id="contactForm">
+
+            <input
+                type="text"
+                placeholder="Your Name"
+                required
+            >
+
+            <input
+                type="email"
+                placeholder="Your Email"
+                required
+            >
+
+            <textarea
+                placeholder="Your Message"
+                required
+            ></textarea>
+
+            <button type="submit" class="btn primary">
+                SEND MESSAGE
+                <i class="fa-solid fa-paper-plane"></i>
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="footer-content">
+
+        <div class="footer-brand">
+
+            <a href="#home" class="logo">
+                <span>N</span>EXORA
+            </a>
+
+            <p>
+                Enter the next generation of gaming.
+            </p>
+
+            <div class="socials">
+
+                <a href="#">
+                    <i class="fa-brands fa-discord"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <h4>EXPLORE</h4>
+
+            <a href="#games">Games</a>
+            <a href="#features">Features</a>
+            <a href="#players">Leaderboard</a>
+            <a href="#news">News</a>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <h4>SUPPORT</h4>
+
+            <a href="#">Help Center</a>
+            <a href="#">Community</a>
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+
+        </div>
+
+    </div>
+
+
+    <div class="copyright">
+        © 2026 NEXORA Gaming. All Rights Reserved.
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
